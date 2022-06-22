@@ -133,7 +133,7 @@ def draw(result, info, video_path, output_file):
     plt.yticks([])
     plt.legend(loc='upper right')
 
-    plt.savefig(output_file)
+    plt.savefig(output_file, bbox_inches="tight", pad_inches=0.5)
 
 
 get_data()
